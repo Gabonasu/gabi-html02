@@ -1,0 +1,68 @@
+.squares {
+  width: 80%;
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 0 auto;
+}
+.squares .square-magenta {
+  width: 200px;
+  height: 200px;
+  background: turquoise;
+  border: 1px solid #000000;
+  background-color: magenta;
+}
+.squares .square-peru {
+  width: 200px;
+  height: 200px;
+  background: turquoise;
+  border: 1px solid #000000;
+  background-color: peru;
+}
+.squares .square-purple {
+  width: 200px;
+  height: 200px;
+  background: turquoise;
+  border: 1px solid #000000;
+  background-color: purple;
+}
+
+/***************************************circles********************************************/
+.circles {
+  width: 75%;
+  border: 2px dotted brown;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.circle-red {
+  width: 200px;
+  height: 200px;
+  border: 3px solid red;
+  background: purple;
+  border-radius: 200px;
+  background: red;
+}
+
+.circle-border-blue {
+  border: 3px solid blue;
+}
+
+.circle-green {
+  width: 200px;
+  height: 200px;
+  border: 3px solid red;
+  background: purple;
+  border-radius: 200px;
+  background: green;
+}
+
+.circle-blue {
+  width: 200px;
+  height: 200px;
+  border: 3px solid red;
+  background: purple;
+  border-radius: 200px;
+  background: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

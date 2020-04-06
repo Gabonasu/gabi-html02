@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container .header-section h1 {
+  color: red;
+}
+.container .header-section ul {
+  list-style-type: none;
+}
+.container .header-section a {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
