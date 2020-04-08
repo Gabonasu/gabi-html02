@@ -29,3 +29,35 @@
 
   background-color: purple;
 }
+
+.circles {
+  width: 802px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-color: brown;
+  border: 1px solid #000;
+}
+
+.circle-red {
+  @extend .circle;
+
+  background-color: red;
+}
+
+.circle-green {
+  @extend .circle;
+
+  background-color: green;
+}
+
+.circle-blue {
+  @extend .circle;
+
+  background-color: blue;
+}

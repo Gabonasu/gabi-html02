@@ -14,4 +14,12 @@
   background-color: lightgrey;
 }
 
+.btn-tertiary {
+  color: green;
+}
+
+.btn-text-gray .btn-inverted {
+  color: grey;
+}
+
 /*# sourceMappingURL=style.css.map */
