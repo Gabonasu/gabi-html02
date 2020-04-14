@@ -1,4 +1,10 @@
-.row {
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.row-2 {
   display: flex;
   justify-content: space-between;
   margin: 16px 0;
@@ -9,3 +15,31 @@
   height: 150px;
   border: 1px solid #000;
 }
+
+
+@for $i from 1 through 10 {
+  .row-1 .box-0#{$i} {
+    border-width: #{$i}px;
+  }
+}
+
+
+@for $i from 1 through 10 {
+  @if $i % 2 == 0 {
+    .row-2 .box-0#{$i} {
+      background-color: grey;
+    }
+  }
+}
+
+@for $i from 1 through 10 {
+  @if $i % 2 != 0 {
+    .row-2 .box-0#{$i} {
+      border: 1px dotted #000;
+    }
+  }
+}
+
+
+
+ 

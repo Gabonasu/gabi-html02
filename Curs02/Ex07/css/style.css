@@ -1,0 +1,99 @@
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.row-1 .box-01 {
+  border-width: 1px;
+}
+
+.row-1 .box-02 {
+  border-width: 2px;
+}
+
+.row-1 .box-03 {
+  border-width: 3px;
+}
+
+.row-1 .box-04 {
+  border-width: 4px;
+}
+
+.row-1 .box-05 {
+  border-width: 5px;
+}
+
+.row-1 .box-06 {
+  border-width: 6px;
+}
+
+.row-1 .box-07 {
+  border-width: 7px;
+}
+
+.row-1 .box-08 {
+  border-width: 8px;
+}
+
+.row-1 .box-09 {
+  border-width: 9px;
+}
+
+.row-1 .box-010 {
+  border-width: 10px;
+}
+
+.row-2 .box-02 {
+  background-color: grey;
+}
+
+.row-2 .box-04 {
+  background-color: grey;
+}
+
+.row-2 .box-06 {
+  background-color: grey;
+}
+
+.row-2 .box-08 {
+  background-color: grey;
+}
+
+.row-2 .box-010 {
+  background-color: grey;
+}
+
+.row-2 .box-01 {
+  border: 1px dotted #000;
+}
+
+.row-2 .box-03 {
+  border: 1px dotted #000;
+}
+
+.row-2 .box-05 {
+  border: 1px dotted #000;
+}
+
+.row-2 .box-07 {
+  border: 1px dotted #000;
+}
+
+.row-2 .box-09 {
+  border: 1px dotted #000;
+}
+
+/*# sourceMappingURL=style.css.map */
