@@ -14,6 +14,7 @@
   width: 150px;
   height: 150px;
   border: 1px solid #000;
+  
 }
 
 
@@ -22,6 +23,13 @@
     border-width: #{$i}px;
   }
 }
+
+@for $i from 1 through 10 {
+  .row-1 .box-#{$i}0 {
+    border-width: #{$i}px;
+  }
+}
+
 
 
 @for $i from 1 through 10 {
