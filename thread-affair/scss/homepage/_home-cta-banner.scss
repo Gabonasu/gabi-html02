@@ -2,10 +2,11 @@
   min-height: 236px;
   height: 236px;
   background: url('/img/banners/banner-04.jpg')
-  no-repeat
-  center
-  right;
+    no-repeat
+    center
+    right;
   background-size: cover;
+  margin-bottom: 70px;
 
   a {
     color: $white;
@@ -29,7 +30,7 @@
     }
 
     .cta-line-2 {
-      font-size: 10px;
+      font-size: 18px;
       font-weight: 300;
       line-height: 19px;
     }
