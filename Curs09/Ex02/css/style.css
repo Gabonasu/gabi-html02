@@ -63,3 +63,21 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.flex-container-04 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-05 {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
