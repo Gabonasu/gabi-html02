@@ -74,3 +74,36 @@ body {
 #my-box-01 {
   order: 2;
 }
+
+.flex-container-04 {
+  flex-direction: column;
+}
+
+.flex-container-04 :nth-child(4) {
+  order: 1;
+}
+
+.flex-container-04 :nth-child(3) {
+  order: -1;
+}
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+}
+
+.flex-container-05 .flex-item-1 {
+  order: 1;
+}
+
+.flex-container-05 .flex-item-3 {
+  order: -1;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+}
+
+.flex-container-06 :nth-of-type(3){
+  order: -1;
+}
+
