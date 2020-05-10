@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "boostrap": "^2.0.0",
     "bootstrap": "^4.4.1",
     "sass": "^1.26.3"
   }
