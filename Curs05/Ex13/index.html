@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercitiul 13</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .exercise-row {
+      height: 75px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Aliniate folosind Flexbox</h1>
+      </div>
+    </div>
+
+    <div class="border border-danger">
+      <div class="row justify-content-center exercise-row">
+        <div class="col-4 bg-success h-100"></div>
+      </div>
+
+      <div class="row justify-content-between exercise-row">
+        <div class="col-4 bg-info h-100"></div>
+        <div class="col-4 bg-info h-100"></div>
+      </div>
+
+      <div class="row justify-content-center exercise-row">
+        <div class="col-4 bg-danger h-100"></div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="border border-success">
+      <div class="row justify-content-between exercise-row">
+        <div class="col-4 bg-success h-100"></div>
+        <div class="col-4 bg-success h-100"></div>
+      </div>
+
+      <div class="row justify-content-between exercise-row">
+        <div class="col-4 bg-info h-100"></div>
+        <div class="col-4 bg-info h-100"></div>
+      </div>
+
+      <div class="row justify-content-start exercise-row">
+        <div class="col-4 bg-danger h-100"></div>
+        <div class="col-4 bg-success h-100"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Aliniate folosind offset</h1>
+      </div>
+    </div>
+
+    <div class="container border border-success">
+      <div class="row exercise-row">
+        <div class="col-4 offset-4 h-100 bg-danger"></div>
+      </div>
+
+      <div class="row exercise-row">
+        <div class="col-4 h-100 bg-success"></div>
+        <div class="col-4 offset-4 h-100 bg-success"></div>
+      </div>
+
+      <div class="row exercise-row">
+        <div class="col-4 offset-4 h-100 bg-warning"></div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="container border border-success">
+      <div class="row exercise-row">
+        <div class="col-4 h-100 bg-success"></div>
+        <div class="col-4 offset-4 h-100 bg-danger"></div>
+      </div>
+
+      <div class="row exercise-row">
+        <div class="col-4 h-100 bg-warning"></div>
+        <div class="col-4 offset-4 h-100 bg-success"></div>
+      </div>
+
+      <div class="row exercise-row">
+        <div class="col-4 h-100 bg-danger"></div>
+        <div class="col-4 h-100 bg-warning"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
