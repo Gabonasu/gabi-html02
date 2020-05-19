@@ -23,6 +23,52 @@
 
 /* can't touch this 🔨 */
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 320px 25px 1fr;
+  grid-template-areas: 
+    "header"
+    "main"
+    "sidebar"
+    "footer";
 
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+}
 
+.grid-item-1 {
+  grid-area: header;
+}
+
+.grid-item-2 {
+  grid-area: main;
+}
+
+.grid-item-3 {
+  grid-area: sidebar;
+}
+
+.grid-item-4 {
+  grid-area: footer;
+}
+
+@media (max-width: 519px) {
+  .grid-container {
+    grid-template-areas: 
+    "header"
+    "sidebar"
+    "main"
+    "footer";
+  }
+}
+
+@media (max-width: 767px) {
+  .grid-container {
+    grid-template-areas:
+    "header header header"
+    "sidebar main"
+    "footer footer footer";
+  }
+}
 
